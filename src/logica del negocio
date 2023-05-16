@@ -1,0 +1,20 @@
+USUARIOS
+
+Administrador:
+Será el encargado de la gestión de usuarios y podrá ver los reportes de todos los chóferes
+Chófer:
+Se limitará a cumplimentar un formulario de dos pasos que tras rellenarse será enviado por email y registrado en la bbdd
+
+ADMINISTRADOR ( casos de uso )
+
+- Registrar nuevos usuarios
+- Editar usuarios existentes
+- Deshabilitar usuarios
+- Listar todos los reportes enviados en un página donde se podrá filtrar por (día, chofer... en principio)
+- Listar y editar tabla de tipos de envío (export, import, nacional), que se pueda poner icono identificativo
+
+CHÓFER (casos de uso)
+
+- Cumplimentar un wizard de dos pasos en el que en el primero se le dará a elegir entre export, import y nacional (éstos 3 casos deben estar en una tabla ya que podrán ampliarse en el futuro)	
+  y en el segundo paso simplemente una cámara donde poder adjuntar más de una foto , tras esto darle a finalizar
+- Tras darle a finalizar tanto en el mail que envie como en el registro de la aplicación deberán aparecer las fotos, y el tipo de envío seleccionado así como el geoposicionamiento cuando sea posible ( si no es posible simplemente que lo ignore pero que no falle la aplicación

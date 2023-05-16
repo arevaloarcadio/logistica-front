@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkionic_app_base"]=self["webpackChunkionic_app_base"]||[]).push([[556],{4556:function(e,n,t){t.r(n),t.d(n,{default:function(){return r}});var a=t(6252),i=t(3907),s=(0,a.aZ)({name:"Tab2Page",computed:{...(0,i.Se)(["getUser"])},beforeMount(){"/"==this.$route.path&&(null!=this.getUser.id?this.getUser.is_admin?location.href="/admin/users":location.href="/user/envios":location.href="/login")}});const o=s;var r=o}}]);
+//# sourceMappingURL=556.0557ee76.js.map
